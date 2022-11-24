@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.menu{
+    text-align: center;
+    background-color: #4e1b7e;
+    padding: 3.2rem 0;
+    width: 100%;
+    top: 0;
+    gap: 3.2rem;
+    margin-bottom: 5rem;
+}
+
+.menu ul {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    gap: 3.2rem;
+    font-size: 2.4rem;
+    color: rgb(189, 168, 168);
+}
+
+.menu ul li a {
+    display: flex;
+    gap: 1.6rem;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+
+    transition: 200ms;
+}
+
+.menu ul li a:hover {
+    transform: scale(1.1);
+
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: #d0afd1;
+    text-align: center;
+    -webkit-box-shadow: -1px 3px 25px 5px rgba(45,31,46,0.86); 
+    box-shadow: -1px 3px 25px 5px rgba(45,31,46,0.86);
+}
+.header-content h2 {
+    font-size: 4vmin;
+    color: white;
+}
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.header-content img {
+    width: 80rem;
+    height: 40rem;
+    border-radius: 8px;
+    margin-top: 10rem;
+
+}
+
+body {
+    background-image: url("imagens/fundo.jpg");
+    background-color: #362336;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+body, html {
+    font-family: 'Courgette', 'sans-serif';
+    overflow-x: hidden;
+}
+
+#news {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    padding: 10rem;
+}
+
+.bg-img {
+    border: 2px solid #d0afd1;
+}
+
+.new {
+    margin: auto;
+    margin-bottom: 10rem;
+    border: 2px solid #976799;
+    background-color: #d0afd1;
+    border-radius: 8px 0 8px 0;
+    display: flex;
+    gap: 3.2rem;
+    padding: 4rem;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.new a {
+    text-decoration: none;
+}
+
+.new:hover {
+    transform: scale(1.01);
+    -webkit-box-shadow: -1px 5px 24px 7px rgba(151,103,153,0.86); 
+    box-shadow: -1px 5px 24px 7px rgba(151,103,153,0.86);
+}
+
+.new img {
+    width: 15rem;
+}
+
+.new h3 {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.new i p {
+    font-size: 1.6rem;
+}
+
+#footer {
+    height: 20rem;
+    background-color: #d0afd1
+    ;
+}
+
+#footer p {
+    padding-top: 7rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+    margin-bottom: 2.4rem;
+    
+}
+
+#footer span {
+    font-weight: bold;
+}
+
+#footer .icons {
+    display: flex;
+    gap: 3.2rem;
+   justify-content: center;
+   
+}
+
+#footer .icons a img{
+    width: 4rem;
+}
+
+#footer .icons a:hover {
+    transform: scale(1.1);
+
+    transition: all 200ms;
+}
